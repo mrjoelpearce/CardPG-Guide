@@ -21,6 +21,7 @@ Recommended Weapons: [Cudgel](../Weapons/Cudgel.md), [Holy Symbol](../Weapons/Ho
 | Divine Bulwark     | 7     | 65         | Grant one ally Shield 3 and Retaliate 2.                                                        |
 | Holy Judgment      | 10    | 45         | Expend: Attack 3 against all enemies in a 4-space burst in Range 4, inflicting stun.            |
 | Resurrection Light | 10    | 60         | Expend: Heal 6 HP on one other ally, then they restore all cards from their discard.            |
+
 ### Subclasses
 
 **Godtouched**: Lean into your support role, with enhanced healing and buffing options

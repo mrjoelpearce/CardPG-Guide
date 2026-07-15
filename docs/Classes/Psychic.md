@@ -21,6 +21,7 @@ Recommended Weapons: [Bow](../Weapons/Bow.md), [Crossbow](../Weapons/Crossbow.md
 | Phantasmal Image  | 7     | 48         | Deal 3 damage to a target at Range 5, then Hide.                                                               |
 | Mind Shatter      | 10    | 25         | Expend: Deal 5 direct damage to a target, bypassing their defenses, then inflict Stun.                         |
 | Puppet Master     | 10    | 40         | Expend: Force one enemy to move up to 5 spaces and attack another combatant for 5 damage.                      |
+
 ### Subclasses
 
 **Manipulator**: Make better use of your Coerce skills as you direct your enemies.

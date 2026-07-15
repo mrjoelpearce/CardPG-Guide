@@ -21,6 +21,7 @@ Recommended Weapons: [Mageblade](../Weapons/Mageblade.md), [Staff](../Weapons/St
 | Fireball        | 7     | 32         | Attack 3 and apply Burn to all targets in a 3-space burst at Range 5                                                                                    |
 | Annihilation    | 10    | 32         | Expend: Attack 3 and apply Freeze to all targets in a 4-space Burst at Range 5, then Push each 2 spaces.                                                |
 | Time Stop       | 10    | 50         | Expend: Apply Slow and Stun to all enemies within 5 spaces. Boost all allies.                                                                           |
+
 ### Subclasses
 
 **Pyromancer**: Burn your enemies in a torrent of flame and ash.

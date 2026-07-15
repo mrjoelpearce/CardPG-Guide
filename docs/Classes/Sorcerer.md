@@ -21,6 +21,7 @@ Recommended Weapons: [Crossbow](../Weapons/Crossbow.md), [Staff](../Weapons/Staf
 | Fuel the Fire      | 7     | 50         | Attack 3 at range 4, then recover 1 card from your exile.                                                                                                                     |
 | Annihilate         | 10    | 15         | Expend: Attack 7 with Pierce 3 against one enemy.                                                                                                                             |
 | Rebirth            | 10    | 55         | Inflict Shock 3 on yourself. As long as Rebirth is in your ongoing pile, if you would die or flee, Recover 6 cards instead. Exile this card when it leaves your ongoing zone. |
+
 ### Subclasses
 
 **Blood Mage**: Use your own life to further enhance your damaging abilities

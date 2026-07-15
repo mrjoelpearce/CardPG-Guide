@@ -7,6 +7,7 @@ Your character will be a [Human](../Ancestries/Human.md), [Fae](../Ancestries/Fa
 ### Background
 
 You will also choose how your character grew up. This will give you one card in combat, and will determine your main form of recovery.
+
 * [Noble](../Backgrounds/Noble.md)
 * [Farmer](../Backgrounds/Farmer.md)
 * [Exile](../Backgrounds/Exile.md)

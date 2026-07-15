@@ -1,24 +1,28 @@
 There are 16 skills, divided into four categories:
 
 **Physical Skills**
+
 * Athletic - used to perform feats of strength or physical labor.
 * Acrobatic - used to balance, leap, dodge, or climb
 * Sneaky - used to hide, move quietly, or look unassuming
 * Resilient - used to shrug off damage or push through pain
 
 **Social Skills**
+
 * Personable - used to make a good first impression and appear harmless
 * Charming - used to manipulate, deceive, and bargain
 * Persuasive - used to reason and convince
 * Intimidating - used to threaten and control
 
 **Mental Skills**
+
 * Clever - able to solve puzzles, think and respond quickly
 * Wise - able to see the best or most practical course of action
 * Learned - able to recall useful information
 * Resourceful - able to think laterally, attempt new solutions
 
 **Knowledge Skills**
+
 * Arcana - knowledge of magic, spells, ancient languages
 * Nature - knowledge of nature, animals, plants and biomes
 * Martial - knowledge of military systems, weapons, defenses, strategy

@@ -21,6 +21,7 @@ Recommended Weapons: [Crossbow](../Weapons/Crossbow.md), [Daggers](../Weapons/Da
 | Mass Hex             | 7     | 48         | Apply Curse 2 and Weaken 1 to all enemies within 3 spaces.                                          |
 | Grand Hex            | 10    | 45         | Expend: Attack 2 and apply Curse 4 to every enemy within 3 spaces.                                  |
 | Utter Ruin           | 10    | 52         | Expend: Apply Weaken 2, Slow, and Blind to all enemies within 6 spaces.                             |
+
 ### Subclasses
 
 **Hag**: Enhance your abilities to spread plagues through your enemies.

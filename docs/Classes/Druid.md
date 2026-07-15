@@ -21,6 +21,7 @@ Recommended Weapons: [Bow](../Weapons/Bow.md), [Cudgel](../Weapons/Cudgel.md), [
 | Living Forest     | 7     | 48         | Expend: Apply Bleed 3 and Poison 2 to all enemies within 3 spaces.                                                                                                                                                                                                                 |
 | Primal Fury       | 10    | 32         | Expend: Move 4. Attack 3 and apply Bleed 3 to all enemies in a 3-space burst.                                                                                                                                                                                                      |
 | Restoration Totem | 10    | 60         | Expend: Summon a Restoration Totem in an adjacent space (HP 6). At the start of each of your turns, restore 1 card from each ally's discard and heal 2 HP on each ally within 3 spaces. Track totem HP in this card's Totem HP field. Exile this card when the totem is destroyed. |
+
 ### Subclasses
 
 **Elementalist**: Channel the power of the elements to deliver powerful attacks.

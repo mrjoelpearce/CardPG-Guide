@@ -21,6 +21,7 @@ Recommended Weapons: [Brawling](../Weapons/Brawling.md), [Cudgel](../Weapons/Cud
 | Thousand Cuts    | 7     | 32         | Attack 2 and apply Bleed 3 to the target.                                                             |
 | Seven Stars      | 10    | 28         | Expend: Attack 4 and apply Stun to adjacent targets, then push them 3 spaces.                         |
 | Empty Mind       | 10    | 65         | Expend: Gain Shield 3 and Boost, then heal 4 HP on yourself.                                          |
+
 ### Subclasses
 
 **Martial Artist**: Gain additional mobility options and some harder hitting attacks

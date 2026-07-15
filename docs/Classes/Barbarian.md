@@ -20,6 +20,7 @@ Recommended Weapons: [Greataxe](../Weapons/Greataxe.md), [Greatsword](../Weapons
 | Slam            | 7     | 32         | Attack X, where X is the number of cards in your discard pile.                                                                                                      |
 | Warlust         | 10    | 10         | Expend: Discard your remaining hand. For each card discarded this way, attack 2 against one enemy of your choice. You may choose different targets for each attack. |
 | Death Lunge     | 10    | 15         | Expend: Move 5 spaces, then attack 5 with Pierce 3 and Bleed 3. If this attack brings the target to 0 HP, restore your entire discard pile to your hand.            |
+
 ### Subclasses
 
 **Berserker**: Feed into your rage with even more discard effects.

@@ -47,6 +47,7 @@ Players and enemies both have a D20 luck die, rolled along with the 4DF.
 | 18 | Enemy gains **Boost** |
 | 19 | Enemy inflicts **Muddle** (target exiles a card) |
 | 20 | **Critical** — double dealt damage |
+
 ### Rounds and Turns
 At the start of each round, players will select their cards in secret, and enemies will choose an action for the turn. One of these cards will be your lead card, and its initiative value will determine the initiative order (ascending).
 

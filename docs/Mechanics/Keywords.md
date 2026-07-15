@@ -41,6 +41,7 @@ If an ability has a Keyword, that keyword is activated on any hit, even if an at
 | **Shock X**  | Take 1 damage each time you make an attack, for up to X attacks.      |
 | **Poison X** | You cannot heal, restore, or recover cards for X rounds.              |
 | **Slow**     | Your initiative drops to last place next round.                       |
+
 #### Buffs
 *Positive effects. Fade over time, or stripped away by a Stun effect.*
 

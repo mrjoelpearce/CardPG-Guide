@@ -21,6 +21,7 @@ Recommended Weapons: [Crossbow](../Weapons/Crossbow.md), [Holy Symbol](../Weapon
 | Epic Ballad     | 7     | 65         | Grant all allies Boost, then restore 2 cards from one ally's discard (their choice).                          |
 | Death Knell     | 10    | 48         | Expend: Attack 3 against all enemies in a 4-space burst, then apply Curse 3 and Weaken 2 to each.             |
 | Magnum Opus     | 10    | 68         | Expend: Grant all allies Boost and Bless, then each recovers one card from exile.                             |
+
 ### Subclasses
 
 **Skald**: Lean into your support role, sustaining and enhancing your allies.
