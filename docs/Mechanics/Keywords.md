@@ -15,7 +15,7 @@ If an ability has a Keyword, that keyword is activated on any hit, even if an at
 | **Restore X** | Pull X cards from your discard pile back into your hand. You choose which ones. |
 | **Recover X** | Randomly retrieve X cards from your exile and return them to your discard pile. |
 | **Cure X** | Remove X conditions from yourself or an ally. Cannot remove buffs. |
-| **Pierce X** | This attack bypasses X points of the target's armor. |
+| **Pierce X** | This attack bypasses X points of the target's Bolster and armor — spent against Bolster first, then any leftover reduces armor. |
 | **Bypass** | This attack ignores Shield entirely. |
 | **Range X** | This attack can reach targets up to X spaces away. |
 | **Push X** | Shove the target X spaces directly away from you. |
@@ -47,7 +47,7 @@ If an ability has a Keyword, that keyword is activated on any hit, even if an at
 
 | Keyword         | What it does                                                                                                  |
 | --------------- | ------------------------------------------------------------------------------------------------------------- |
-| **Bolster X**   | Reduce incoming damage by 2 for each of the next X hits against you.                                          |
+| **Bolster X**   | Reduce incoming damage by 1 for each of the next X hits against you.                                          |
 | **Shield X**    | The next X attacks against you are completely negated. Max 3 stacks.                                          |
 | **Retaliate X** | The next X times you are attacked, the attacker automatically takes 1 damage.                                 |
 | **Hide**        | Enemies cannot target you. Lasts until you attack — clears the moment you do, however many rounds that takes. |

@@ -17,9 +17,9 @@ Once a card has been used, it goes to your discard pile.
 ### Armor and Damage
 Both characters and enemies have an **armor** value. When an attack deals damage, armor reduces it by its full value — 5 damage against a target with 2 armor deals 3 damage. If damage is reduced to zero or below, no damage is dealt. **Status effects will be triggered, even if an attack value is 0.**
 
-The **Pierce** keyword reduces effective armor before damage is calculated. **Bypass** ignores the Shield buff entirely but does not affect armor.
+The **Pierce** keyword is spent against Bolster first, and any leftover reduces effective armor. **Bypass** ignores the Shield buff entirely but does not affect armor.
 
-**Bolster** reduces incoming damage by 2 for each remaining stack. Each time you take a hit, one Bolster stack is consumed (whether or not the attack deals damage). Bolster stacks do not expire at end of round — they last until used up.
+**Bolster** reduces incoming damage by 1 for each remaining stack. Each time you take a hit, one Bolster stack is consumed (whether or not the attack deals damage). Bolster stacks do not expire at end of round — they last until used up.
 
 **Shield** negates entire attacks. Each incoming attack consumes one Shield stack and deals 0 damage. The **Bypass** keyword ignores Shield entirely.
 
