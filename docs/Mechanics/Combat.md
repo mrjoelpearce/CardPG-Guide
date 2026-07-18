@@ -19,7 +19,7 @@ Both characters and enemies have an **armor** value. When an attack deals damage
 
 The **Pierce** keyword is spent against Bolster first, and any leftover reduces effective armor. **Bypass** ignores the Shield buff entirely but does not affect armor.
 
-**Bolster** reduces incoming damage by 1 for each remaining stack. Each time you take a hit, one Bolster stack is consumed (whether or not the attack deals damage). Bolster stacks do not expire at end of round — they last until used up.
+**Bolster**: for the next several attacks against you — one per remaining stack — reduce damage by 1 each. Each time you take a hit, one Bolster stack is consumed (whether or not the attack deals damage). Bolster stacks do not expire at end of round — they last until used up.
 
 **Shield** negates entire attacks. Each incoming attack consumes one Shield stack and deals 0 damage. The **Bypass** keyword ignores Shield entirely.
 

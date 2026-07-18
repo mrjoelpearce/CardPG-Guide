@@ -31,7 +31,7 @@
     Shock: "Take 1 damage each time you make an attack, for up to X attacks.",
     Poison: "You cannot heal, restore, or recover cards for X rounds.",
     Slow: "Your initiative drops to last place next round.",
-    Bolster: "Reduce incoming damage by 1 for each of the next X hits against you.",
+    Bolster: "For the next X attacks against you, reduce damage by 1.",
     Shield: "The next X attacks against you are completely negated. Max 3 stacks.",
     Retaliate: "The next X times you are attacked, the attacker automatically takes 1 damage.",
     Hide: "Enemies cannot target you. Lasts until you attack — clears the moment you do, however many rounds that takes.",
