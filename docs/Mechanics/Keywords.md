@@ -39,7 +39,7 @@ If an ability has a Keyword, that keyword is activated on any hit, even if an at
 | **Weaken X** | Deal 1 less damage with every attack you make, for X rounds.          |
 | **Blind**    | You may only target enemies within 2 spaces, until end of round.      |
 | **Shock X**  | Take 1 damage each time you make an attack, for up to X attacks.      |
-| **Poison X** | You cannot heal, restore, or recover cards for X rounds.              |
+| **Poison X** | You cannot heal, restore, or recover cards for X rounds. Ignore positive Luck Die outcomes. If you rest while poisoned, you only restore half of your cards. |
 | **Slow**     | Your initiative drops to last place next round.                       |
 
 #### Buffs

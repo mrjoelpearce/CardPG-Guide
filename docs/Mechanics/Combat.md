@@ -48,6 +48,8 @@ Players and enemies both have a D20 luck die, rolled along with the 4DF.
 | 19 | Enemy inflicts **Muddle** (target exiles a card) |
 | 20 | **Critical** — double dealt damage |
 
+If the roller is **Poisoned**, rolls 18–20 have no effect — Poison suppresses positive Luck Die outcomes for both players and enemies.
+
 ### Rounds and Turns
 At the start of each round, players will select their cards in secret, and enemies will choose an action for the turn. One of these cards will be your lead card, and its initiative value will determine the initiative order (ascending).
 
@@ -55,6 +57,8 @@ If you have fewer than two cards in hand, you must rest instead.
 
 * **Short Rest**: One of your discarded cards is exiled at random, and you recover the rest. You can play your turn as normal.
 * **Long Rest**: You recover all discarded cards from your discard pile. Your initiative is set to 99 this turn, and you will not act this round.
+
+If you are **Poisoned**, resting only recovers half of the eligible cards (rounded up) — you choose which.
 
 On your turn, you can use both cards you selected.
 
