@@ -44,7 +44,7 @@ Players and enemies both have a D20 luck die, rolled along with the 4DF.
 | 1 | **Miss** — attack fails |
 | 2 | Enemy is **Slowed** |
 | 3–17 | No effect |
-| 18 | Enemy gains **Boost** |
+| 18 | Enemy inflicts **Exhaust** (target discards a card) |
 | 19 | Enemy inflicts **Muddle** (target exiles a card) |
 | 20 | **Critical** — double dealt damage |
 
