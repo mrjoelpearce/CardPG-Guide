@@ -14,12 +14,14 @@ Recommended Weapons: [Crossbow](../Weapons/Crossbow.md), [Daggers](../Weapons/Da
 | Wither               | 1     | 42         | Ongoing: At the start of the next 3 rounds, apply Curse 2 to an enemy within 3 spaces.              |
 | Evil Bond            | 1     | 45         | Ongoing: Apply weaken 1 to a target at Range 4. Each time that target deals damage, recover 1 card. |
 | Hex Ward             | 1     | 55         | Apply Blind to one enemy in Range 3, then gain Shield 1.                                            |
+| Putrid Burst         | 1     | 64         | Target a dead enemy within 5 spaces. The corpse explodes, Attacking adjacent targets for 2 and inflicting Poison 1. |
 | Sacrificial Exchange | 1     | 81         | Discard 2 cards: each other ally Restores 1 card to hand.                                           |
 | Dark Pact            | 2     | 35         | Attack 2 and apply Curse 3 to a target at Range 4. Discard 1 card.                                  |
 | Coven's Gift         | 2     | 50         | Ongoing: The next two times an ally is attacked, they gain Shield 1.                                |
+| Life from Death      | 3     | 43         | Touch an adjacent dead target. Heal 4 and Cure 1.                                                   |
 | Soul Drain           | 7     | 38         | Attack 2 and apply Curse 2 to the target, then heal 2 HP on yourself.                               |
 | Mass Hex             | 7     | 48         | Apply Curse 2 and Weaken 1 to all enemies within 3 spaces.                                          |
-| Grand Hex            | 10    | 45         | Expend: Attack 2 and apply Curse 4 to every enemy within 3 spaces.                                  |
+| Grand Hex            | 10    | 49         | Expend: Attack 2 and apply Curse 4 to every enemy within 3 spaces.                                  |
 | Utter Ruin           | 10    | 52         | Expend: Apply Weaken 2, Slow, and Blind to all enemies within 6 spaces.                             |
 
 ### Subclasses

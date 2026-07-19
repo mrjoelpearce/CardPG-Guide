@@ -12,7 +12,9 @@ Recommended Weapons: [Cudgel](../Weapons/Cudgel.md), [Greataxe](../Weapons/Great
 | --------------- | ----- | ---------- | --------------------------------------------------------------------------- |
 | Heavy Blow      | 1     | 42         | Attack 3, then apply Slow to the target.                                    |
 | Provoke         | 1     | 30         | Attack 2, then gain Retaliate 3                                             |
+| Retribution     | 1     | 32         | The next three times another ally is attacked, deal 2 damage against the attacker. |
 | Shield Wall     | 1     | 68         | Gain Bolster 2, then attack 2.                                              |
+| Squire's Command | 1    | 68         | One of your other allies gains Boost, then makes a basic attack.           |
 | Stalwart Stance | 1     | 70         | Ongoing: At the start of the next three rounds, gain Bolster 1.             |
 | Formation       | 1     | 72         | Grant one adjacent ally Bolster 1, then gain Bolster 2 yourself.            |
 | Challenge       | 2     | 48         | Move 1, Attack 2, then apply Weaken 2 to the target.                        |

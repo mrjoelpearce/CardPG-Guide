@@ -10,11 +10,13 @@ Recommended Weapons: [Crossbow](../Weapons/Crossbow.md), [Staff](../Weapons/Staf
 
 | Card               | Level | Initiative | Ability                                                                                                                                                                       |
 | ------------------ | ----- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Rending Touch      | 1     | 27         | Attack 5 against an adjacent target. Inflict Poison 2 on yourself.                                                                                                            |
 | Arcane Bolt        | 1     | 30         | Attack 3 against one enemy at range 3.                                                                                                                                        |
 | Overcharged Blast  | 1     | 35         | Expend: Attack 5 at range:4, but the strain leaves you Burning.                                                                                                               |
 | Ruinous Wave       | 1     | 40         | Move 5 spaces in a straight line. Attack each target you pass through for 3, inflicting stun.                                                                                 |
 | Stunning Blast     | 1     | 50         | Your basic attacks gain Stun and Curse 1.                                                                                                                                     |
 | Piercing Blast     | 1     | 55         | Ongoing: Your basic attacks deal 1 additional damage and inflict Bleed 2                                                                                                      |
+| Shrapnel           | 1     | 65         | Your basic attacks attack in a 1 space burst. You cannot use this in conjunction with any other enhancements to your basic attacks.                                          |
 | Cataclysm          | 2     | 28         | Expend: Attack 4 against all enemies in a 2-space burst placed within Range 4, applying Burn.                                                                                 |
 | Desperate Recovery | 2     | 45         | Inflict Bleed 3 on yourself: recover 2 cards from exile.                                                                                                                      |
 | Meteoric Ruin      | 7     | 20         | Expend: Attack 5 against all targets in a 3-space burst placed within Range 5.                                                                                                |

@@ -12,8 +12,10 @@ Recommended Weapons: [Brawling](../Weapons/Brawling.md), [Greataxe](../Weapons/G
 | ----------------------- | ----- | ---------- | --------------------------------------------------------------------------------------------------------------- |
 | Precision Strike        | 1     | 28         | Attack 3 with Pierce 2.                                                                                         |
 | Advance                 | 1     | 30         | Move 2 spaces, then attack 2 with Pierce 1.                                                                     |
-| Barrage                 | 1     | 32         | Attack 2, then attack 1.                                                                                        |
+| Throwing Knife          | 1     | 32         | Attack a target within 4 spaces for 2, with Pierce 1                                                            |
+| Repeater                | 1     | 50         | Now and at the start of your next three turns, Make an Attack 1 on a target within 4 spaces.                    |
 | Hold the Line           | 1     | 58         | Gain Bolster 2, then attack 2.                                                                                  |
+| Stunning Bolt           | 1     | 58         | Attack a target in Range 5 for 2, inflicting Stun and Slow.                                                     |
 | Dig In                  | 1     | 60         | Ongoing: While in the ongoing zone, allies adjacent to you gain Bolster 1 when attacked. Ends after 3 triggers. |
 | Center of Attention     | 2     | 35         | Attack 2. One ally within 3 spaces may immediately move up to 3 spaces.                                         |
 | Coordinated Positioning | 2     | 14         | Move 3 spaces. One ally within 4 spaces may immediately move up to 3 spaces.                                    |

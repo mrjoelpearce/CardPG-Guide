@@ -8,19 +8,21 @@ Recommended Weapons: [Cudgel](../Weapons/Cudgel.md), [Holy Symbol](../Weapons/Ho
 
 ### Cards
 
-| Card               | Level | Initiative | Ability                                                                                         |
-| ------------------ | ----- | ---------- | ----------------------------------------------------------------------------------------------- |
-| Smite              | 1     | 35         | Attack 2 and apply Weaken 2 to the target.                                                      |
-| Sanctuary          | 1     | 45         | Heal 3 HP on an adjacent ally, then gain Shield 2.                                              |
-| Mend               | 1     | 55         | Heal 4 HP on one ally in Range 4.                                                               |
-| Ward               | 1     | 62         | Grant one ally Shield 2 and Bless with Range 3.                                                 |
-| Vigil              | 1     | 65         | Ongoing: At the start of the next 3 rounds, heal 2 HP on the most injured ally within 3 spaces. |
-| Consecrate         | 2     | 42         | Attack 2, then heal 2 HP on one ally with Range 4.                                              |
-| Purify             | 2     | 58         | Heal 2 HP on one ally in Range 4, then clear 2 conditions from them.                            |
-| Radiance           | 7     | 48         | Attack 2 against all enemies in a 3-space burst in Range 5, then apply Blind to each.           |
-| Divine Bulwark     | 7     | 65         | Grant one ally Shield 3 and Retaliate 2.                                                        |
-| Holy Judgment      | 10    | 45         | Expend: Attack 3 against all enemies in a 4-space burst in Range 4, inflicting stun.            |
-| Resurrection Light | 10    | 60         | Expend: Heal 6 HP on one other ally, then they restore all cards from their discard.            |
+| Card               | Level | Initiative | Ability                                                                                          |
+| ------------------ | ----- | ---------- | ------------------------------------------------------------------------------------------------- |
+| Smite              | 1     | 35         | Attack 2 and apply Weaken 2 to the target.                                                       |
+| Mend               | 1     | 42         | Heal 4 HP on one ally in Range 4.                                                                |
+| Create Some Space  | 1     | 43         | Move 2 and Attack 1, pushing target 1.                                                           |
+| Sanctuary          | 1     | 49         | Heal 3 HP on an adjacent ally, then gain Shield 2.                                               |
+| Skull Cracker      | 1     | 50         | Attack 1, dealing Stun.                                                                          |
+| Ward               | 1     | 52         | Grant one ally Shield 2 and Bless with Range 3.                                                  |
+| Vigil              | 1     | 65         | Ongoing: At the start of the next 3 rounds, heal 2 HP on the most injured ally within 3 spaces.  |
+| Consecrate         | 2     | 42         | Attack 2, then heal 2 HP on one ally with Range 4.                                               |
+| Purify             | 2     | 68         | Heal 2 HP on one ally in Range 4, then clear 2 conditions from them.                             |
+| Radiance           | 7     | 48         | Attack 2 against all enemies in a 3-space burst in Range 5, then apply Blind to each.            |
+| Divine Bulwark     | 7     | 68         | Grant one ally Shield 3 and Retaliate 2.                                                         |
+| Holy Judgment      | 10    | 54         | Expend: Attack 3 against all enemies in a 4-space burst in Range 4, inflicting stun.             |
+| Resurrection Light | 10    | 60         | Expend: Heal 6 HP on one other ally, then they restore all cards from their discard.             |
 
 ### Subclasses
 

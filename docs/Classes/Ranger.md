@@ -10,11 +10,13 @@ Recommended Weapons: [Bow](../Weapons/Bow.md), [Crossbow](../Weapons/Crossbow.md
 
 | Card           | Level | Initiative | Ability                                                                                                      |
 | -------------- | ----- | ---------- | ------------------------------------------------------------------------------------------------------------ |
+| Flashing Blade | 1     | 26         | Attack an adjacent target for 2 with Pierce 2.                                                               |
 | Snipe          | 1     | 30         | Attack 2 with Range 7.                                                                                       |
 | Scatter Shot   | 1     | 35         | Attack 2 against all targets in a 4-space cone                                                               |
 | Hunter's Mark  | 1     | 38         | Attack 2 and apply Bleed 2 to a target within 4 spaces.                                                      |
 | Burn Trap      | 1     | 40         | Place a burn trap on any tile within Range 4. The first target to enter that tile gains Burn and 3 damage.   |
 | Shock Trap     | 1     | 45         | Place a shock trap on any tile within Range 4. The first target to enter that tile takes 3 damage and Shock. |
+| Forceful Push  | 1     | 55         | Attack an adjacent target for 1, then push them 2 spaces.                                                    |
 | Aimed Shot     | 2     | 60         | Attack 3 with Pierce 2 and Range 3 at Range 5                                                                |
 | Snare Trap     | 2     | 42         | Place a snare trap on any tile within Range 4. The first target to enter that tile gains Freeze and Bleed 3. |
 | Shadow Strike  | 7     | 22         | Attack 3 with Range 3. After the attack, move 2 spaces and gain Hide.                                        |

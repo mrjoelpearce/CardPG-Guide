@@ -13,7 +13,9 @@ Recommended Weapons: [Brawling](../Weapons/Brawling.md), [Cudgel](../Weapons/Cud
 | Roundhouse       | 1     | 30         | Attack 1 in a 3 space arc and apply Stun to the targets.                                              |
 | Eye of the Storm | 1     | 40         | Attack 2, plus 1 additional damage for each enemy adjacent to you beyond the first.                   |
 | Reversal         | 1     | 10         | Ongoing: The next time you are attacked, counterattack for 2 and move 2 spaces. Ends after 1 trigger. |
+| Transfer         | 1     | 50         | Cure a condition on yourself, and inflict poison on an adjacent enemy.                                |
 | Crane Stance     | 1     | 58         | Ongoing: The next three times you are attacked, Retaliate 1. Ends after 3 triggers.                   |
+| Deep Breath      | 1     | 65         | Heal 2 on yourself.                                                                                   |
 | Deflect          | 1     | 23         | Gain Shield 1 and Retaliate 2.                                                                        |
 | Pressure Point   | 2     | 35         | Attack 2 and apply Weaken 2 to the target, then apply Slow to them.                                   |
 | Iron Skin        | 2     | 50         | Gain Bolster 2 and Retaliate 3.                                                                       |

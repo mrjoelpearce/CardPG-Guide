@@ -13,7 +13,9 @@ Recommended Weapons: [Brawling](../Weapons/Brawling.md), [Cudgel](../Weapons/Cud
 | Lunge         | 1     | 25         | Move 2 spaces, then attack 3.                                                                                          |
 | En Garde      | 1     | 30         | Attack 2, then move 2 spaces.                                                                                          |
 | Flourish      | 1     | 8          | Attack 1, then gain Boost.                                                                                             |
+| Hamstring     | 1     | 14         | Attack an adjacent target for 2, inflicting Slow                                                                       |
 | Marked Target | 1     | 41         | Ongoing: Select an enemy you can see. Deal one extra damage to that enemy and receive one less damage from that enemy. |
+| Cruel Taunt   | 1     | 47         | Inflict Weaken 2 on an enemy within 5 spaces.                                                                          |
 | Parry         | 1     | 62         | Gain Shield 2 and Retaliate 2.                                                                                         |
 | Flash Step    | 2     | 20         | Move 3 spaces, then attack 2 with Pierce 1.                                                                            |
 | Into the Fray | 2     | 55         | Move 2 spaces, then pull one enemy 2 spaces toward you.                                                                |

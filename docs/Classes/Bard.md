@@ -11,10 +11,12 @@ Recommended Weapons: [Crossbow](../Weapons/Crossbow.md), [Holy Symbol](../Weapon
 | Card            | Level | Initiative | Ability                                                                                                       |
 | --------------- | ----- | ---------- | ------------------------------------------------------------------------------------------------------------- |
 | Battle Hymn     | 1     | 28         | Grant one ally Boost.                                                                                         |
+| Illusory Pain   | 1     | 44         | Deal 1 damage to a target in Range 5, dealing Stun.                                                           |
 | Discordant Note | 1     | 45         | Attack 1 and apply Slow and Weaken to a target in Range 4                                                     |
 | Lullaby         | 1     | 55         | Apply Slow to all enemies within 3 spaces.                                                                    |
 | Inspire         | 1     | 58         | Restore 1 card from one ally's discard (their choice), then grant them Bless.                                 |
 | Chorus          | 1     | 65         | Ongoing: At the start of the next 3 rounds, restore 1 card from one ally's discard pile, and heal them for 1. |
+| Hall of Mirrors | 1     | 79         | At the start of your next three turns, Move 2.                                                                |
 | Dirge           | 2     | 38         | Attack 2 and apply Curse 2 to the target, then apply Weaken 1 to them.                                        |
 | Rallying Cry    | 2     | 52         | Grant one ally Boost, then heal 3 HP on them.                                                                 |
 | War Song        | 7     | 42         | Attack 2 against all enemies in a 3-space burst, then apply Blind to each.                                    |

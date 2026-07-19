@@ -12,6 +12,8 @@ Recommended Weapons: [Bow](../Weapons/Bow.md), [Crossbow](../Weapons/Crossbow.md
 | ----------------- | ----- | ---------- | -------------------------------------------------------------------------------------------------------------- |
 | Psychic Lance     | 1     | 35         | Deal 1 direct damage to a target at Range 4, dealing stun.                                                     |
 | Mind Shackle      | 1     | 13         | Coerce 1: force all enemies in a 3 space cone to move up to 1 space and attack another combatant for 1 damage. |
+| Cluster Headache  | 1     | 32         | Deal 1 damage to an enemy in range 4, then repeat.                                                             |
+| Spread the Hate   | 1     | 35         | The next two times another ally is attacked, Coerce 2 on the attacker.                                        |
 | Cloud the Mind    | 1     | 48         | Apply Weaken 1 and Blind to an enemy at Range 3.                                                               |
 | Guilty Conscience | 1     | 52         | The next three times you coerce an enemy, that enemy takes 2 damage and gains Curse 1 after making the attack. |
 | Mind Spike        | 1     | 60         | At the start of your next three turns, deal one damage to an enemy at range:5                                  |

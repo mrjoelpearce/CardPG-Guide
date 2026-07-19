@@ -12,9 +12,11 @@ Recommended Weapons: [Mageblade](../Weapons/Mageblade.md), [Staff](../Weapons/St
 | --------------- | ----- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Ice Lance       | 1     | 28         | Attack 3 with Pierce 2 against one enemy.                                                                                                               |
 | Arcane Blast    | 1     | 35         | Attack 2 against all targets in a 3-space cone, then push each 1 space.                                                                                 |
-| Mystic Swap     | 1     | 38         | Swap positions with any target within Range 4.                                                                                                          |
 | Mage's Touch    | 1     | 40         | Append: Add Curse 1 to an attack from your hand this turn. Standalone: Attack 2 and apply Curse 1 to the target.                                        |
-| Leyline         | 1     | 48         | Ongoing: At the start of each of your turns, gain Boost. Ends after 3 turns.                                                                            |
+| Mystic Swap     | 1     | 49         | Swap positions with any target within Range 4.                                                                                                          |
+| Leyline         | 1     | 54         | Ongoing: At the start of each of your turns, gain Boost. Ends after 3 turns.                                                                            |
+| Poison Cloud    | 1     | 74         | Append: Add Poison to an attack from your hand this turn. Standalone - Ongoing: inflict Poison 1 in a 2 space burst at Range 5 at the start of the next three rounds. |
+| Static Charge   | 1     | 74         | Attack an adjacent enemy for 4, inflicting Shock 2.                                                                                                      |
 | Meteor          | 2     | 30         | Append: Add Burn to an attack from your hand this turn. Standalone: Attack 3 and apply Burn to all targets in a 2-space burst at any point you can see. |
 | Chain Lightning | 2     | 38         | Append: Add Shock to an attack from your hand this turn. Standalone: Attack 2 and apply Shock to all targets in a cone of 4 spaces.                     |
 | Void Bolt       | 7     | 15         | Attack 4 with Pierce 3 against one enemy at Range 6.                                                                                                    |

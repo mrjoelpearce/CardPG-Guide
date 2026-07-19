@@ -15,6 +15,8 @@ Recommended Weapons: [Brawling](../Weapons/Brawling.md), [Crossbow](../Weapons/C
 | Dagger Dance  | 1     | 28         | Attack 2 then move 2 spaces. If you are hidden when you play this card, attack 3 instead.                     |
 | Exploit       | 1     | 32         | Attack 2 with Pierce 2, then apply Weaken 1 to the target.                                                    |
 | Stakeout      | 1     | 42         | Ongoing: Gain Hide. At the start of each of your turns, restore 1 card from your discard. Ends after 3 turns. |
+| Fan of Blades | 1     | 43         | Attack 1 in a 3-space cone, inflicting Poison 1.                                                              |
+| Secret Star   | 1     | 64         | Attack 2 in range 3, inflicting Bleed 2. This attack can only be made if you are hiding.                      |
 | Evasion       | 2     | 18         | Move 3 spaces, gain Hide, then gain Bless.                                                                    |
 | Death Mark    | 2     | 38         | Apply Curse 2 and Bleed 2 to one enemy at Range 4. If you are hidden, apply Curse 3 and Bleed 3 instead.      |
 | Wraith Step   | 7     | 15         | Move 3 spaces, attack 3 and apply Bleed 2, then gain Hide.                                                    |
