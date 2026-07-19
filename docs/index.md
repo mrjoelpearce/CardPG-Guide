@@ -28,4 +28,8 @@ Weapon: [Bow](Weapons/Bow.md), [Brawling](Weapons/Brawling.md), [Crossbow](Weapo
 - [Fate Points](Mechanics/Fate%20Points.md)
 - [Passive Abilities](Mechanics/Passive%20Abilities.md)
 
+## Tools
+
+- [Build Tester](tools/build-tester.html){:target="_blank"} — pick an ancestry, background, class, subclass, weapon, and level, then browse the resulting card pool and try building a hand. Loads live from this site's own data, so it's always current. Opens in a new tab (it's a standalone tool, not a guide page).
+
 
