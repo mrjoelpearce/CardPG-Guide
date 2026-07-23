@@ -1,0 +1,33 @@
+subclass,parent_class,skill1,skill2,skill3,description
+hag,witch,sneaky,nature,learned,"More Curses, tricky moves."
+necromancer,witch,intimidating,underworld,arcana,Raise undead minions from fallen foes as ongoing cards.
+godtouched,cleric,wise,persuasive,learned,Healing and targeted support.
+retributor,cleric,intimidating,martial,resilient,Non-elemental damage spells and card recovery.
+battlemage,mage,acrobatic,martial,resilient,"Maintains spells but adds mobility and protection, with spells to append onto."
+pyromancer,mage,arcana,intimidating,clever,Rain down fire on everyone.
+shapeshifter,druid,resilient,athletic,nature,Ongoing and single-use cards that let the druid make physical attacks near totems.
+elementalist,druid,arcana,nature,wise,Strong elemental magic and zones of elemental power.
+trapper,ranger,sneaky,resourceful,nature,"A mix of ranged attacks and control, with ongoing animal summons."
+sharpshooter,ranger,resourceful,acrobatic,clever,Borrows the Mage's append mechanic to add effects to attacks.
+bountyhunter,mercenary,intimidating,athletic,underworld,More control options and additional coerce cards.
+magehunter,mercenary,acrobatic,clever,sneaky,"Attacks specializing in bypass and condition clearing, with mobility to reach the back line."
+paladin,knight,resilient,personable,arcana,Adds some magical healing and further tanking.
+templar,knight,resilient,athletic,martial,"Continues with retaliation, but more offense than defense this time."
+captain,soldier,persuasive,resourceful,martial,"More ongoing cards, and cards that call allies to action."
+gladiator,soldier,acrobatic,clever,intimidating,"Fighting dirty, with more push and pull effects."
+martialartist,monk,resilient,acrobatic,athletic,More direct combat moves.
+ascendant,monk,wise,charming,learned,"Adds recovery and healing, turning enemy attacks back on them."
+duellist,swashbuckler,acrobatic,charming,clever,Additional effects that focus on a single target enemy.
+brawler,swashbuckler,athletic,underworld,intimidating,"Still a mobile fighter, but now uses show-off fighting moves against groups."
+burglar,rogue,sneaky,charming,underworld,Leans into stealth and stealing to regain cards.
+assassin,rogue,acrobatic,intimidating,underworld,"Leans into cards that deal extra damage from stealth, poison, and bleed."
+skald,bard,personable,resourceful,learned,"More storytelling, with ongoing cards that buff allies and hinder enemies."
+trickster,bard,clever,resourceful,arcana,Illusion magic and tricks that mess with the battlefield itself.
+champion,barbarian,intimidating,resourceful,resilient,"Target and burst down specific enemies, with rewards for killing foes."
+berserker,barbarian,athletic,acrobatic,resilient,"More rage, more card cycling, more mayhem."
+manipulator,psychic,arcana,clever,persuasive,More direct control on your enemies
+souleater,psychic,intimidating,clever,intimidating,Gain power from the damage you deal
+bloodmage,sorcerer,arcana,resilient,intimidating,Fuel powerful spells with your own life
+warlock,sorcerer,learned,wise,underworld,Turn your basic attacks into powerful blasts
+demonologist,summoner,underworld,resourceful,persuasive,Summon powerful creatures you might be able to control
+primal,summoner,nature,arcana,personable,Summon elementals to aid you

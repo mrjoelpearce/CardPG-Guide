@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CardPG — Build Tester</title>
+<style>
+:root {
+  --bg: #15131b;
+  --panel: #1f1c28;
+  --panel-border: #3a3548;
+  --text: #e9e4f0;
+  --text-subtle: #9f97b3;
+  --gold: #d4ac0d;
+  --green: #2ecc71;
+  --red: #ff6b6b;
+  --blue: #5dade2;
+  --purple: #bb8fce;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 16px 24px 48px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Signika", "Segoe UI", sans-serif;
+}
+h1 { margin: 0 0 4px; }
+.hint { color: var(--text-subtle); font-size: 0.9em; margin-bottom: 16px; }
+.build-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 12px;
+  margin-bottom: 16px;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+}
+.build-controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.85em;
+  color: var(--text-subtle);
+}
+.build-controls select {
+  padding: 6px 8px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+  font-size: 1em;
+  min-width: 140px;
+}
+.aspects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.aspect {
+  padding: 10px 12px;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+}
+.aspect h3 {
+  margin: 0 0 4px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--gold);
+}
+.aspect p { margin: 0; font-size: 0.95em; }
+.slot-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  font-size: 0.9em;
+}
+.slot-row.full { color: var(--green); font-weight: bold; }
+.slot-row.total { font-weight: bold; border-left: 1px solid var(--panel-border); padding-left: 20px; }
+.card-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 800px) {
+  .card-columns { grid-template-columns: 1fr; }
+}
+.card-column h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-subtle);
+}
+.card-column .count { font-weight: normal; color: var(--text-subtle); }
+.card-list { list-style: none; margin: 0; padding: 0; }
+.card-item {
+  margin-bottom: 6px;
+  padding: 8px 10px;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+}
+.card-header { display: flex; align-items: center; gap: 8px; }
+.card-badge {
+  font-size: 0.7em;
+  padding: 1px 6px;
+  border-radius: 3px;
+  border: 1px solid currentColor;
+  flex-shrink: 0;
+}
+.badge-ancestry   { color: var(--blue);   background: rgba(93, 173, 226, 0.15); }
+.badge-background { color: var(--green);  background: rgba(46, 204, 113, 0.15); }
+.badge-class      { color: var(--gold);   background: rgba(212, 172, 13, 0.15); }
+.badge-subclass   { color: var(--red);    background: rgba(255, 107, 107, 0.15); }
+.badge-weapon     { color: var(--purple); background: rgba(187, 143, 206, 0.15); }
+.card-name { flex: 1; font-weight: bold; }
+.card-init { font-size: 0.8em; color: var(--text-subtle); }
+.card-header button {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid var(--panel-border);
+  background: var(--bg);
+  color: var(--text);
+  font-weight: bold;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.card-header button:disabled { opacity: 0.3; cursor: not-allowed; }
+.card-header button.add { border-color: var(--green); color: var(--green); }
+.card-header button.remove { border-color: var(--red); color: var(--red); }
+.card-detail { margin-top: 6px; font-size: 0.85em; color: var(--text-subtle); }
+.card-detail .card-level { margin: 0 0 4px; }
+.card-detail .card-actions { font-family: monospace; color: var(--text); margin: 0 0 4px; }
+.card-detail .card-ability { color: var(--text); margin: 0 0 4px; }
+.card-detail .card-trigger { font-style: italic; margin: 0; }
+.kw-hover { text-decoration: underline dotted var(--gold); cursor: help; }
+.footer-note { margin-top: 32px; font-size: 0.75em; color: var(--text-subtle); }
+</style>
+</head>
+<body>
+  <h1>CardPG Build Tester</h1>
+  <p class="hint">Pick a build, then click <strong>+</strong> on pool cards to add them to your hand (up to each source's slot limit) and <strong>&minus;</strong> to remove them. Changing any build option resets the hand. Card data loads live from this site's own <code>/data/</code> folder, so it always reflects the current rules.</p>
+
+  <section class="build-controls">
+    <label>Ancestry <select id="ancestry"></select></label>
+    <label>Background <select id="background"></select></label>
+    <label>Class <select id="class"></select></label>
+    <label>Subclass <select id="subclass"></select></label>
+    <label>Weapon <select id="weapon"></select></label>
+    <label>Level <select id="level"></select></label>
+  </section>
+
+  <section class="aspects">
+    <div class="aspect"><h3>Identity</h3><p id="aspect-identity">&mdash;</p></div>
+    <div class="aspect"><h3>Baggage</h3><p id="aspect-baggage">&mdash;</p></div>
+    <div class="aspect"><h3>Drive</h3><p id="aspect-drive">&mdash;</p></div>
+    <div class="aspect"><h3>Role</h3><p id="aspect-role">&mdash;</p></div>
+    <div class="aspect"><h3>Max HP</h3><p id="aspect-max-hp">&mdash;</p></div>
+    <div class="aspect"><h3>Class Passive</h3><p id="aspect-class-passive">&mdash;</p></div>
+    <div class="aspect"><h3>Weapon Passive</h3><p id="aspect-weapon-passive">&mdash;</p></div>
+  </section>
+
+  <section class="slot-summary" id="slot-summary"></section>
+
+  <section class="card-columns">
+    <div class="card-column">
+      <h2>Pool <span class="count" id="pool-count"></span></h2>
+      <ul id="pool-list" class="card-list"></ul>
+    </div>
+    <div class="card-column">
+      <h2>Hand <span class="count" id="hand-count"></span></h2>
+      <ul id="hand-list" class="card-list"></ul>
+    </div>
+  </section>
+
+  <p class="footer-note" id="footer-note">Loading build data&hellip;</p>
+
+<script>
+"use strict";
+
+/* ---- Build data (fetched live from ../data/*.csv on this site) ---- */
+const CSV_FILES = {
+  ancestries: "../data/ancestries.csv",
+  backgrounds: "../data/backgrounds.csv",
+  classes: "../data/Classes.csv",
+  subclasses: "../data/subclasses.csv",
+  weapons: "../data/weapons.csv",
+  cards: "../data/cards.csv",
+  baggage: "../data/baggage.csv",
+  drives: "../data/drives.csv",
+  roles: "../data/roles.csv",
+};
+
+async function fetchCSV(path) {
+  const res = await fetch(path);
+  if (!res.ok) throw new Error(`Failed to fetch "${path}": HTTP ${res.status}`);
+  return res.text();
+}
+
+function parseCSV(text) {
+  const lines = text.replace(/\r\n/g, "\n").replace(/\r/g, "\n").trim().split("\n");
+  if (lines.length < 2) return [];
+  const headers = parseCSVLine(lines[0]);
+  return lines.slice(1).filter((l) => l.trim()).map((line) => {
+    const values = parseCSVLine(line);
+    const obj = {};
+    headers.forEach((h, i) => {
+      obj[h.trim()] = (values[i] ?? "").trim();
+    });
+    return obj;
+  });
+}
+
+function parseCSVLine(line) {
+  const result = [];
+  let current = "";
+  let inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (ch === '"') {
+      if (inQuotes && line[i + 1] === '"') {
+        current += '"';
+        i++;
+      } else {
+        inQuotes = !inQuotes;
+      }
+    } else if (ch === "," && !inQuotes) {
+      result.push(current);
+      current = "";
+    } else {
+      current += ch;
+    }
+  }
+  result.push(current);
+  return result;
+}
+
+/** Turns a "row key in first column, one column per other key" CSV into a nested lookup object. */
+function buildLookup(rows) {
+  const table = {};
+  for (const row of rows) {
+    const keys = Object.keys(row);
+    const rowKey = row[keys[0]];
+    table[rowKey] = {};
+    for (const k of keys.slice(1)) {
+      if (k) table[rowKey][k] = row[k];
+    }
+  }
+  return table;
+}
+
+const data = {};
+async function loadData() {
+  const entries = await Promise.all(
+    Object.entries(CSV_FILES).map(async ([key, path]) => [key, await fetchCSV(path)]),
+  );
+  const text = Object.fromEntries(entries);
+  data.ancestries = parseCSV(text.ancestries);
+  data.backgrounds = parseCSV(text.backgrounds);
+  data.classes = parseCSV(text.classes);
+  data.subclasses = parseCSV(text.subclasses);
+  data.weapons = parseCSV(text.weapons);
+  data.cards = parseCSV(text.cards);
+  data.baggage = buildLookup(parseCSV(text.baggage));
+  data.drives = buildLookup(parseCSV(text.drives));
+  data.roles = buildLookup(parseCSV(text.roles));
+}
+
+/* ---- Slot limits per decisions/cards.md — only Subclass depends on level ---- */
+const SLOT_DEFS = [
+  { key: "ancestry", label: "Ancestry", max: 2 },
+  { key: "background", label: "Background", max: 1 },
+  { key: "class", label: "Class", max: 4 },
+  { key: "subclass", label: "Subclass", max: 0 },
+  { key: "weapon", label: "Weapon", max: 5 },
+];
+
+/* ---- Keyword descriptions (mirrors CARDPG.keywords in module/config.mjs,
+   sourced from resources/CARD_CREATION.md's keyword tables) ---- */
+const KEYWORD_DESCRIPTIONS = {
+  pierce: "Attack bypasses X armour.",
+  bypass: "This attack ignores Shield entirely.",
+  range: "Attack reaches up to X spaces. Advisory only; self-enforced.",
+  heal: "Restore X HP to target.",
+  restore: "Target draws X cards from their discard (player chooses). Cannot restore the card currently being played.",
+  recover: "X cards randomly moved from target's exile to discard. Cannot recover the card currently being played.",
+  cure: "Clear X Conditions from target. Never removes Buffs.",
+  muddle: "X cards randomly exiled from target's hand. Enemy-only.",
+  exhaust: "Force target to discard X cards from their hand. Enemy-only.",
+  coerce: "Force one enemy to move up to X spaces and attack another combatant for X damage. Attacker chooses path and target. Resolves before other effects on the card.",
+  stun: "Immediately remove one Buff or end one ongoing card from the target. The attacker chooses which.",
+  burn: "Deal 2 damage at end of this round, then clear. Reapplying before end of round has no additional effect.",
+  bleed: "Deal 1 damage at end of each round for X rounds, then remove. Max 4.",
+  freeze: "Target moves 1 fewer space per movement action. Clears at end of round.",
+  curse: "Target takes 1 additional damage from each attack received, regardless of stack count. X only sets how many rounds it lasts. Max 3.",
+  weaken: "Target deals 1 less damage per attack, regardless of stack count. X only sets how many rounds it lasts. Max 3.",
+  blind: "Target may only target enemies within 2 spaces. Advisory only, self-enforced like Range. Clears at end of round.",
+  shock: "Target takes 1 damage each time they attack, losing 1 stack per attack — not at end of round. Max 3.",
+  poison: "Target cannot heal, restore, or recover; lasts X rounds. Max 3.",
+  slow: "Target's initiative is set to 99 next round.",
+  bolster: "For the next X attacks against you, reduce damage by 1. Charge-based. Max 5.",
+  shield: "Absorb X incoming attacks entirely. Bypass ignores Shield. Charge-based. Max 3.",
+  retaliate: "Deal 1 unavoidable damage to each attacker for next X attacks received. Charge-based. Max 5.",
+  hide: "Enemies cannot target this character. Clears when you attack or target an enemy.",
+  haste: "Gain +1 space on all movement actions.",
+  bless: "Ignore negative luck die results (rolls 1 and 2). Also prevents Curse, Weaken, and Poison outright.",
+  boost: "+2 to attack rolls (advantage).",
+};
+
+/* ---- AOE shape rider descriptions (decisions/aoe-targeting.md) — kept
+   separate from KEYWORD_DESCRIPTIONS since these aren't gameplay keywords
+   (they drive canvas template placement, not an applied effect), same
+   distinction the schema itself makes (aoeShape/aoeSize vs keywords[]). ---- */
+const AOE_SHAPE_DESCRIPTIONS = {
+  zone: "Burst centered on the actor (radius X spaces) — no placement step.",
+  line: "Rectangle extending from the actor (length X spaces, width fixed at 1 space).",
+  cone: "Wedge extending from the actor (length X spaces, angle fixed at 60°).",
+  burst: "Circle freely placed within range (radius X spaces; pair with +range:Y for max placement distance, advisory only).",
+  arc: "Close melee sweep around the actor — distance 1.5 spaces and angle 120° are both fixed, not authored.",
+};
+
+/** Wraps +keyword / +keyword:X tokens in an action string with a hover tooltip. Returns safe HTML. */
+function highlightKeywords(text) {
+  if (!text) return "";
+  const span = document.createElement("span");
+  span.textContent = text;
+  const escaped = span.innerHTML;
+  return escaped.replace(/\+(\w+)(:\w+)?/g, (match, key) => {
+    const desc = KEYWORD_DESCRIPTIONS[key] || AOE_SHAPE_DESCRIPTIONS[key];
+    if (!desc) return match;
+    return `<span class="kw-hover" title="${desc.replace(/"/g, "&quot;")}">${match}</span>`;
+  });
+}
+
+let hand = [];
+
+const titleCase = (s) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
+
+function subclassMaxForLevel(level) {
+  if (level >= 8) return 3;
+  if (level >= 6) return 2;
+  if (level >= 4) return 1;
+  return 0;
+}
+
+function populateSelect(select, rows, keyField) {
+  const previous = select.value;
+  select.innerHTML = "";
+  const blank = document.createElement("option");
+  blank.value = "";
+  blank.textContent = "— Select —";
+  select.appendChild(blank);
+  for (const row of rows) {
+    const opt = document.createElement("option");
+    opt.value = row[keyField];
+    opt.textContent = titleCase(row[keyField]);
+    select.appendChild(opt);
+  }
+  if (rows.some((r) => r[keyField] === previous)) select.value = previous;
+}
+
+function getSelection() {
+  return {
+    ancestry: document.getElementById("ancestry").value,
+    background: document.getElementById("background").value,
+    class: document.getElementById("class").value,
+    subclass: document.getElementById("subclass").value,
+    weapon: document.getElementById("weapon").value,
+    level: Number(document.getElementById("level").value) || 1,
+  };
+}
+
+function updateSubclassOptions() {
+  const classKey = document.getElementById("class").value;
+  const filtered = data.subclasses.filter((s) => s.parent_class === classKey);
+  populateSelect(document.getElementById("subclass"), filtered, "subclass");
+}
+
+function onBuildChange() {
+  hand = [];
+  render();
+}
+
+function render() {
+  const sel = getSelection();
+  renderAspects(sel);
+  renderCards(sel);
+}
+
+function renderAspects(sel) {
+  const backgroundRow = data.backgrounds.find((b) => b.background === sel.background);
+
+  const identityEl = document.getElementById("aspect-identity");
+  identityEl.textContent = (sel.ancestry && sel.class && backgroundRow)
+    ? `${titleCase(sel.ancestry)} ${titleCase(sel.class)}, ${backgroundRow.statement}`
+    : "—";
+
+  document.getElementById("aspect-baggage").textContent =
+    (sel.ancestry && sel.background && data.baggage[sel.ancestry]?.[sel.background]) || "—";
+  document.getElementById("aspect-drive").textContent =
+    (sel.class && sel.background && data.drives[sel.class]?.[sel.background]) || "—";
+  document.getElementById("aspect-role").textContent =
+    (sel.class && sel.ancestry && data.roles[sel.class]?.[sel.ancestry]) || "—";
+
+  const classRow = data.classes.find((c) => c.class === sel.class);
+  const ancestryRow = data.ancestries.find((a) => a.ancestry === sel.ancestry);
+  document.getElementById("aspect-max-hp").textContent = (ancestryRow && classRow)
+    // health.max = ancestryHp + classHp + level (+ bonus, always 0 here — see
+    // module/data/actor-character.mjs's prepareDerivedData). This tool has no
+    // equivalent of a manual health.bonus field, so it's omitted entirely.
+    ? `${Number(ancestryRow.health) + Number(classRow.health) + sel.level}`
+    : "—";
+  document.getElementById("aspect-class-passive").textContent = classRow
+    ? `${classRow.passive_name} — ${classRow.passive_description}`
+    : "—";
+  const weaponRow = data.weapons.find((w) => w.weapon === sel.weapon);
+  document.getElementById("aspect-weapon-passive").textContent = weaponRow
+    ? `${weaponRow.passive_name} — ${weaponRow.passive_description}`
+    : "—";
+}
+
+function getEligibleCards(sel) {
+  const sources = [
+    { category: "ancestry", key: sel.ancestry },
+    { category: "background", key: sel.background },
+    { category: "class", key: sel.class },
+    { category: "subclass", key: sel.subclass },
+    { category: "weapon", key: sel.weapon },
+  ].filter((s) => s.key);
+
+  return data.cards.filter(
+    (c) =>
+      sources.some((s) => s.category === c.source_category && s.key === c.source_key) &&
+      Number(c.level) <= sel.level,
+  );
+}
+
+const cardKey = (c) => `${c.source_category}:${c.source_key}:${c.name}`;
+
+function renderCards(sel) {
+  const slots = SLOT_DEFS.map((s) => ({
+    ...s,
+    max: s.key === "subclass" ? subclassMaxForLevel(sel.level) : s.max,
+  }));
+
+  const eligible = getEligibleCards(sel);
+  const handKeys = new Set(hand.map(cardKey));
+  const pool = eligible.filter((c) => !handKeys.has(cardKey(c)));
+
+  const counts = {};
+  for (const c of hand) counts[c.source_category] = (counts[c.source_category] ?? 0) + 1;
+
+  const summaryEl = document.getElementById("slot-summary");
+  summaryEl.innerHTML = "";
+  let totalCurrent = 0;
+  let totalMax = 0;
+  for (const slot of slots) {
+    const current = counts[slot.key] ?? 0;
+    totalCurrent += current;
+    totalMax += slot.max;
+    const row = document.createElement("div");
+    row.className = "slot-row" + (slot.max > 0 && current >= slot.max ? " full" : "");
+    row.textContent = slot.max === 0
+      ? `${slot.label}: — (level 4+)`
+      : `${slot.label}: ${current} / ${slot.max}`;
+    summaryEl.appendChild(row);
+  }
+  const totalRow = document.createElement("div");
+  totalRow.className = "slot-row total";
+  totalRow.textContent = `Total: ${totalCurrent} / ${totalMax}`;
+  summaryEl.appendChild(totalRow);
+
+  pool.sort((a, b) => a.source_category.localeCompare(b.source_category) || a.name.localeCompare(b.name));
+  const poolList = document.getElementById("pool-list");
+  poolList.innerHTML = "";
+  for (const card of pool) {
+    const slot = slots.find((s) => s.key === card.source_category);
+    const full = !slot || (counts[card.source_category] ?? 0) >= slot.max;
+    poolList.appendChild(
+      renderCardItem(card, "+", "add", full, () => {
+        hand.push(card);
+        renderCards(sel);
+      }),
+    );
+  }
+  document.getElementById("pool-count").textContent = `(${pool.length})`;
+
+  hand.sort((a, b) => Number(a.initiative) - Number(b.initiative));
+  const handList = document.getElementById("hand-list");
+  handList.innerHTML = "";
+  for (const card of hand) {
+    handList.appendChild(
+      renderCardItem(card, "−", "remove", false, () => {
+        hand = hand.filter((h) => cardKey(h) !== cardKey(card));
+        renderCards(sel);
+      }),
+    );
+  }
+  document.getElementById("hand-count").textContent = `(${hand.length})`;
+}
+
+function renderCardItem(card, btnLabel, btnClass, disabled, onClick) {
+  const li = document.createElement("li");
+  li.className = "card-item";
+
+  const header = document.createElement("div");
+  header.className = "card-header";
+
+  const badge = document.createElement("span");
+  badge.className = `card-badge badge-${card.source_category}`;
+  badge.textContent = card.source_category;
+
+  const name = document.createElement("span");
+  name.className = "card-name";
+  name.textContent = card.name;
+
+  const init = document.createElement("span");
+  init.className = "card-init";
+  init.textContent = `Init ${card.initiative}`;
+
+  const btn = document.createElement("button");
+  btn.className = btnClass;
+  btn.textContent = btnLabel;
+  btn.disabled = disabled;
+  btn.title = disabled ? `No open ${card.source_category} slots` : "";
+  btn.addEventListener("click", onClick);
+
+  header.append(badge, name, init, btn);
+  li.appendChild(header);
+
+  const detail = document.createElement("div");
+  detail.className = "card-detail";
+
+  const level = document.createElement("p");
+  level.className = "card-level";
+  level.textContent = `Level ${card.level}`;
+  detail.appendChild(level);
+
+  if (card.actions) {
+    const actions = document.createElement("p");
+    actions.className = "card-actions";
+    actions.innerHTML = highlightKeywords(card.actions);
+    detail.appendChild(actions);
+  }
+  if (card.ability) {
+    const ability = document.createElement("p");
+    ability.className = "card-ability";
+    ability.textContent = card.ability;
+    detail.appendChild(ability);
+  }
+  if (card.trigger) {
+    const trigger = document.createElement("p");
+    trigger.className = "card-trigger";
+    const strong = document.createElement("strong");
+    strong.textContent = `${card.trigger}: `;
+    trigger.appendChild(strong);
+    const triggerActions = document.createElement("span");
+    triggerActions.innerHTML = highlightKeywords(card.trigger_actions || "");
+    trigger.appendChild(triggerActions);
+    detail.appendChild(trigger);
+  }
+
+  li.appendChild(detail);
+  return li;
+}
+
+async function init() {
+  try {
+    await loadData();
+  } catch (err) {
+    document.getElementById("footer-note").textContent =
+      `Failed to load build data: ${err.message}. Check that /data/*.csv is reachable from this page.`;
+    console.error(err);
+    return;
+  }
+  document.getElementById("footer-note").textContent =
+    "Build data loaded live from this site's /data/*.csv — always current with the latest rules.";
+
+  populateSelect(document.getElementById("ancestry"), data.ancestries, "ancestry");
+  populateSelect(document.getElementById("background"), data.backgrounds, "background");
+  populateSelect(document.getElementById("class"), data.classes, "class");
+  populateSelect(document.getElementById("weapon"), data.weapons, "weapon");
+
+  const levelSelect = document.getElementById("level");
+  levelSelect.innerHTML = "";
+  for (let i = 1; i <= 10; i++) {
+    const opt = document.createElement("option");
+    opt.value = i;
+    opt.textContent = i;
+    levelSelect.appendChild(opt);
+  }
+
+  document.getElementById("ancestry").addEventListener("change", onBuildChange);
+  document.getElementById("background").addEventListener("change", onBuildChange);
+  document.getElementById("class").addEventListener("change", () => {
+    updateSubclassOptions();
+    onBuildChange();
+  });
+  document.getElementById("subclass").addEventListener("change", onBuildChange);
+  document.getElementById("weapon").addEventListener("change", onBuildChange);
+  document.getElementById("level").addEventListener("change", onBuildChange);
+
+  updateSubclassOptions();
+  render();
+}
+
+init();
+</script>
+</body>
+</html>
