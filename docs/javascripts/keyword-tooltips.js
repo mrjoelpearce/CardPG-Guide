@@ -34,7 +34,7 @@
     Bolster: "For the next X attacks against you, reduce damage by 1.",
     Shield: "The next X attacks against you are completely negated. Max 3 stacks.",
     Retaliate: "The next X times you are attacked, the attacker automatically takes 1 damage.",
-    Hide: "Enemies cannot target you. Lasts until you attack — clears the moment you do, however many rounds that takes.",
+    Hide: "Enemies cannot target you. Lasts until you attack or target an enemy — clears the moment you do, however many rounds that takes.",
     Haste: "Gain +1 space on every movement action.",
     Bless: "Your bad luck die results (1 and 2) have no effect on you. You are also immune to Curse, Poison and Weaken.",
     Boost: "Your attacks roll at +2.",
