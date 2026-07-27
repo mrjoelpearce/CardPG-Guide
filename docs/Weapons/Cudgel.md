@@ -18,4 +18,4 @@ Passive: When you deal 3 or more damage in a single attack, apply Stun.
 | Concuss             | 6     | 30         | Attack 3 and apply Stun and Weaken 2 to the target.                                             |
 | Shockwave           | 6     | 35         | Attack 2 against all targets in a 2-space burst, then push each 1 space.                        |
 | Mete Out Judgment   | 9     | 25         | At the start of the next 3 rounds, gain Boost, Bless, and Retaliate 1.                          |
-| Earthshatter        | 9     | 32         | Expend: Attack 3 against all targets in a 4 space cone, then push each 2 spaces and apply Slow. |
+| Earthshatter        | 9     | 32         | Expend: Attack 5 against all targets in a 4 space cone, then push each 2 spaces and apply Slow. |

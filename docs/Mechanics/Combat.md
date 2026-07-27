@@ -12,7 +12,11 @@ You will have a hand of cards selected from your [Card Pool](../Mechanics/Card%2
 
 Whenever you make an attack, you will roll 4DF and the Luck Die. You will add or subtract your die result from the base value of the attack, which will determine the damage dealt.
 
-Once a card has been used, it goes to your discard pile.
+If you choose to play a card for an ability that has multiple steps, you must attempt to play each step of the ability, and must do those actions in order.
+
+So, a card that reads "*Move 2, then Attack 2*" is a different card than "Attack 2, then move 2."
+
+Once a card has been used, it goes to your discard pile, unless it has *Expend*.
 
 ### Armor and Damage
 Both characters and enemies have an **armor** value. When an attack deals damage, armor reduces it by its full value — 5 damage against a target with 2 armor deals 3 damage. If damage is reduced to zero or below, no damage is dealt. **Status effects will be triggered, even if an attack value is 0.**

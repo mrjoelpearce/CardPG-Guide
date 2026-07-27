@@ -17,5 +17,5 @@ Passive: If a single-target attack does 3+ damage, it also hits the enemy direct
 | Suppressive Volley | 3     | 28         | Attack 2 against all targets in a 4-space cone, then gain Hide.                                                      |
 | Siege Bolt         | 6     | 20         | Attack 4 with Pierce 3 and Range 5.                                                                                  |
 | Shadow Spike       | 6     | 22         | Attack 3 against all targets in a 6 space line, then gain Hide.                                                      |
-| Assassin's Mark    | 9     | 15         | Gain Boost. Your next three attacks gain Bleed 2 and Weaken 2.                                                       |
+| Assassin's Mark    | 9     | 15         | Expend: Gain Boost. Your next three attacks gain Bleed 2 and Weaken 2.                                               |
 | Ghost Volley       | 9     | 18         | Expend: Attack 4 against all targets in a 6 space line, inflicting Bleed 2, then gain Hide.                          |

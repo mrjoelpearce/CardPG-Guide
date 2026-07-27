@@ -6,7 +6,7 @@ Passive: If you deal 4 damage to an enemy in a single hit, inflict Weaken 1.
 
 | Card             | Level | Initiative | Ability                                                                                                       |
 | ---------------- | ----- | ---------- | ------------------------------------------------------------------------------------------------------------- |
-| Haft             | 1     | 12         | Attack 1 with stun.                                                                                           |
+| Haft             | 1     | 8          | Attack 1 with stun.                                                                                           |
 | Heave            | 1     | 20         | Attack 2 and push the target 3 spaces.                                                                        |
 | Axe Rush         | 1     | 25         | Move 2 spaces, then attack 3.                                                                                 |
 | Overhead         | 1     | 28         | Attack 4.                                                                                                     |
@@ -17,5 +17,5 @@ Passive: If you deal 4 damage to an enemy in a single hit, inflict Weaken 1.
 | Whirlwind Chop   | 3     | 28         | Attack 3 against all adjacent targets, then push each 1 space.                                                |
 | Decapitate       | 6     | 22         | Expend: Attack 4 with Pierce 3 and Bleed 2.                                                                   |
 | Ravager's Sweep  | 6     | 32         | Attack 3 and apply Bleed 2 to all targets in a 3-space arc.                                                   |
-| Titan's Fall     | 9     | 20         | Boost, then Move 3 and Attack 5 with Pierce 3 and Bypass. This attack can only be used against major enemies. |
+| Titan's Fall     | 9     | 20         | Expend: Boost, then Move 3 and Attack 5 with Pierce 3 and Bypass. This attack can only be used against major enemies. |
 | Blood Harvest    | 9     | 28         | Expend: Attack 3 and apply Bleed 3 to all targets in a 2-space burst, then heal 5 HP on yourself.             |
