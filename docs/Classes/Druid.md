@@ -33,6 +33,7 @@ Recommended Weapons: [Bow](../Weapons/Bow.md), [Cudgel](../Weapons/Cudgel.md), [
 | Ice Wall              | 4     | 48         | Apply Freeze and Slow to all targets in a 4-space line.                                 |
 | Firestorm             | 6     | 35         | Attack 3 and apply Burn to all targets in a 3-space burst.                              |
 | Elemental Convergence | 8     | 38         | Expend: Attack 3 and apply Burn, Shock 2 and Freeze to all targets within three spaces. |
+
 **Shapeshifter**: Transform yourself to leap into the front line of the fight.
 
 | Card        | Level | Initiative | Ability                                                                         |

@@ -33,6 +33,7 @@ Recommended Weapons: [Brawling](../Weapons/Brawling.md), [Cudgel](../Weapons/Cud
 | Flying Kick        | 4     | 20         | Move 3 spaces, then attack 3 and apply Stun to the target.                      |
 | Iron Fist          | 6     | 25         | Attack 4 with Pierce 2.                                                         |
 | Ten Thousand Fists | 8     | 28         | Expend: Attack 2, then attack 2, then attack 2 and apply Bleed 3 to the target. |
+
 **Ascendant**: Use your concentration to provide support and sustain in longer fights
 
 | Card        | Level | Initiative | Ability                                                                                |

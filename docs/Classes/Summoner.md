@@ -33,6 +33,7 @@ Recommended Weapons: [Bow](../Weapons/Bow.md), [Crossbow](../Weapons/Crossbow.md
 | Bind Spark Elemental | 4   | 40  | Summon a Spark Elemental in an adjacent space (HP 8). During each of your turns, the Spark Elemental can move up to 3 spaces, then inflicts 1 damage and Shock 2 on all enemies within 2 spaces.                |
 | Bind Frost Elemental | 6   | 50  | Summon a Frost Elemental in an adjacent space (HP 10). During each of your turns, It can move up to 2 spaces, and attacks for 2 in a 3 space cone, inflicting Freeze.                                            |
 | Storm Titan          | 8   | 20  | Expend: Combine your Spark Elemental and Frost Elemental into a Storm Titan (16 HP). On each of your turns, it can move up to 2 space and attacks for 3 in a 3 space cone, inflicting Freeze, Stun and Shock 1. |
+
 **Demonologist**: Use forbidden magic to summon fiends to fight for you.
 
 |                       |     |     |                                                                                                                                                                                                                                                                                    |

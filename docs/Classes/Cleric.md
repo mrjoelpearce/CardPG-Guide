@@ -33,6 +33,7 @@ Recommended Weapons: [Cudgel](../Weapons/Cudgel.md), [Holy Symbol](../Weapons/Ho
 | Blessed Strike   | 4     | 35         | Attack 2 and apply Weaken 2 to the target, then heal 3 HP on one ally.              |
 | Divine Sight     | 6     | 58         | Grant all allies Bless, then restore 1 card from one ally's discard (their choice). |
 | Divine Protector | 8     | 68         | Expend: Grant all allies Shield 3, then heal 4 HP on each of them.                  |
+
 Retributor: Deliver the punishment of the gods onto your enemies.
 
 | Card          | Level | Initiative | Ability                                                                                                                       |

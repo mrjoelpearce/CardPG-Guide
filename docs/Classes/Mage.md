@@ -33,6 +33,7 @@ Recommended Weapons: [Mageblade](../Weapons/Mageblade.md), [Staff](../Weapons/St
 | Fire Shower | 4     | 35         | Attack 2 against all enemies in a 3-space burst placed within Range 4, applying Burn.          |
 | Firestorm   | 6     | 25         | Expend: Attack 3 against all enemies within 3 spaces, applying Burn.                           |
 | Wildfire    | 8     | 45         | Ongoing: At the start of each of your next 3 turns, apply Burn to all enemies within 2 spaces. |
+
 Battlemage: Gain the mobility needed to get in close and personal. 
 
 | Card         | Level | Initiative | Ability                                                         |

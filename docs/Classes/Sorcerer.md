@@ -33,6 +33,7 @@ Recommended Weapons: [Crossbow](../Weapons/Crossbow.md), [Staff](../Weapons/Staf
 | Blood Sacrifice | 4     | 32         | At the start of your next three turns, gain Bleed 1. All enemies within 3 spaces gain Weaken and Burn.                                      |
 | Blood Pact      | 6     | 48         | The next three times you kill an enemy, take 2 damage and recover 1 card.                                                                   |
 | Devil's Bargain | 8     | 18         | Spend 5 life. The next 4 times you are attacked, Heal 3 and deal 3 damage to the attacker. Exile this card when it leaves the ongoing zone. |
+
 **Warlock**: Further enhance your basic attacks.
 
 | Card            | Level | Initiative | Ability                                                                                                 |

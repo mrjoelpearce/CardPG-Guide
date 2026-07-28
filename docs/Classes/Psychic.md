@@ -33,6 +33,7 @@ Recommended Weapons: [Bow](../Weapons/Bow.md), [Crossbow](../Weapons/Crossbow.md
 | Twist the Knife  | 4     | 40         | Give an enemy boost, then Coerce 2.                                                         |
 | Cruel Master     | 6     | 45         | At the end of your next three turns, inflict an enemy in Range 4 with Shock 2 and Coerce 2. |
 | Total Domination | 8     | 30         | Choose two enemies. They use basic attacks against each other until one is dead.            |
+
 **Souleater**: Gain more benefits from dealing direct psychic damage to enemies.
 
 | Card           | Level | Initiative | Ability                                                                                                  |

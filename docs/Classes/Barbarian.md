@@ -32,6 +32,7 @@ Recommended Weapons: [Greataxe](../Weapons/Greataxe.md), [Greatsword](../Weapons
 | Blood Frenzy   | 4     | 30         | Ongoing: Whenever you discard a card, deal 1 damage to one enemy you can see. Ends after 3 turns.                                         |
 | Rampage        | 6     | 18         | Discard 1 card: Move 3 spaces, then Attack 3, then Attack 2.                                                                              |
 | Death or Glory | 8     | 12         | Expend: Take turns trading basic attacks with an adjacent enemy. You go first. If the enemy dies, recover all cards from your exile zone. |
+
 **Champion**: Focus on the biggest enemy on the battlefield and take them down.
 
 | Card            | Level | Initiative | Ability                                                                                                                                                       |

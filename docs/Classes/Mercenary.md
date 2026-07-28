@@ -33,6 +33,7 @@ Recommended Weapons: [Brawling](../Weapons/Brawling.md), [Cudgel](../Weapons/Cud
 | Quarry   | 4     | 22         | Ongoing: Select an enemy. At the start of each round, gain Boost and Bolster 3. Effect ends if enemy dies or you do not attack them on your turn. |
 | Icy Cage | 6     | 18         | Move 2. Attack 2 and apply Freeze to the target.                                                                                                  |
 | Leverage | 8     | 22         | All enemies in a 4 space cone are Coerced 3.                                                                                                      |
+
 **Mage Hunter**: Specialize in taking down enemy mages before they cast their big spells.
 
 | Card           | Level | Initiative | Ability                                                                                                 |

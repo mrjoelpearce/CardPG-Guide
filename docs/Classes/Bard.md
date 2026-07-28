@@ -33,6 +33,7 @@ Recommended Weapons: [Crossbow](../Weapons/Crossbow.md), [Holy Symbol](../Weapon
 | Inspiring Verse | 4     | 35         | Ongoing: After each of your attacks, restore 1 card from one ally's discard pile (their choice). Ends after 3 turns. |
 | War Chant       | 6     | 45         | Attack 2 against all enemies within three spaces, then grant all allies Haste.                                       |
 | Turn the Tide   | 8     | 48         | Expend: Attack 2 against all enemies within three spaces, then grant all allies Boost and Retaliate 2.               |
+
 **Trickster**: Use magic to disrupt your enemies to protect yourself and allies.
 
 | Card            | Level | Initiative | Ability                                                                     |

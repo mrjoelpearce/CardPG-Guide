@@ -33,6 +33,7 @@ Recommended Weapons: [Cudgel](../Weapons/Cudgel.md), [Greataxe](../Weapons/Great
 | Holy Nova   | 4     | 32         | Attack 3 against all targets in a 3-space burst.           |
 | Crusade     | 6     | 28         | Move 2 spaces, then attack 3 and apply Burn to the target. |
 | Sacred Fury | 8     | 5          | Expend: Attack 4 with Pierce 3, then gain Retaliate 3.     |
+
 Paladin: Support your allies while holding the line.
 
 | Card          | Level | Initiative | Ability                                                             |
