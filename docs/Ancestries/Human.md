@@ -1,6 +1,6 @@
 Humans live throughout the realm, as varied as the communities that they create. Those who have stayed through the recent struggles tend to be highly resilient and stubborn, or else don't have any other option. In combat, humans are mobile and flexible.
 
-If you choose to be a human, explain which settlement you grew up in, and what brought you to Brewold.
+If you choose to be a human, explain which settlement you grew up in, and what brought you to [Brewold](../Setting/Brewold.md).
 
 Starting Health: 6
 

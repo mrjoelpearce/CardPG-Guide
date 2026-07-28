@@ -1,0 +1,1 @@
+Everfield is a logging town in the heart of the Western Woods. As the population has exploded in recent years, much of the cleared lands around the city have become rough farmland, which has led to political and social anxieties.

@@ -11,9 +11,14 @@ Your [Character](Mechanics/Character.md) will be created by making a series of c
 
 **Background**: [Criminal](Backgrounds/Criminal.md), [Exile](Backgrounds/Exile.md), [Farmer](Backgrounds/Farmer.md), [Labourer](Backgrounds/Labourer.md), [Merchant](Backgrounds/Merchant.md), [Military](Backgrounds/Military.md), [Monastic](Backgrounds/Monastic.md), [Noble](Backgrounds/Noble.md), [Scholar](Backgrounds/Scholar.md), [Wilds](Backgrounds/Wilds.md)
 
-Class: [Barbarian](Classes/Barbarian.md), [Bard](Classes/Bard.md), [Cleric](Classes/Cleric.md), [Druid](Classes/Druid.md), [Knight](Classes/Knight.md), [Mage](Classes/Mage.md), [Mercenary](Classes/Mercenary.md), [Monk](Classes/Monk.md), [Psychic](Classes/Psychic.md), [Ranger](Classes/Ranger.md), [Rogue](Classes/Rogue.md), [Soldier](Classes/Soldier.md), [Sorcerer](Classes/Sorcerer.md), [Summoner](Classes/Summoner.md), [Swashbuckler](Classes/Swashbuckler.md), [Witch](Classes/Witch.md)
+Class: [Barbarian](Classes/Barbarian.md), [Bard](Classes/Bard.md), [Chaos Wizard](Classes/Chaos%20Wizard.md), [Cleric](Classes/Cleric.md), [Druid](Classes/Druid.md), [Knight](Classes/Knight.md), [Mage](Classes/Mage.md), [Mercenary](Classes/Mercenary.md), [Monk](Classes/Monk.md), [Psychic](Classes/Psychic.md), [Ranger](Classes/Ranger.md), [Rogue](Classes/Rogue.md), [Soldier](Classes/Soldier.md), [Sorcerer](Classes/Sorcerer.md), [Summoner](Classes/Summoner.md), [Swashbuckler](Classes/Swashbuckler.md), [Witch](Classes/Witch.md)
 
 Weapon: [Bow](Weapons/Bow.md), [Brawling](Weapons/Brawling.md), [Crossbow](Weapons/Crossbow.md), [Cudgel](Weapons/Cudgel.md), [Daggers](Weapons/Daggers.md), [Greataxe](Weapons/Greataxe.md), [Greatsword](Weapons/Greatsword.md), [Holy Symbol](Weapons/Holy%20Symbol.md), [Mageblade](Weapons/Mageblade.md), [Rapier](Weapons/Rapier.md), [Staff](Weapons/Staff.md), [Sword & Shield](Weapons/Sword%20%26%20Shield.md), [Tome](Weapons/Tome.md), [Wand](Weapons/Wand.md), [Warhammer](Weapons/Warhammer.md), [Whipblade](Weapons/Whipblade.md)
+
+## The Game World
+The game takes place in [Veleris Coast](Setting/Veleris%20Coast.md), a troubled region that the players call home.
+
+The party will start their adventure in [Brewold](Setting/Brewold.md), a small town between the encroaching wastelands and the Western Woods.
 
 ## Game Mechanics
 

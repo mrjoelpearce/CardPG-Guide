@@ -1,0 +1,1 @@
+Ragwater is a city that most people avoid unless necessary. It's run by the Red Hawks, a famous mercenary company that keeps the peace between various criminal organizations. There are regular citizens here, too, but life is rough in Ragwater.
