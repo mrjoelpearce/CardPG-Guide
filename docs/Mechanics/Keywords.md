@@ -34,7 +34,7 @@ If an ability has a Keyword, that keyword is activated on any hit, even if an at
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Burn**     | Take 2 damage at the end of this round, then this condition clears.                                                                                          |
 | **Bleed X**  | Take 1 damage at the end of each round for X rounds.                                                                                                         |
-| **Freeze**   | Move 1 fewer space on every movement action. Clears at end of round                                                                                          |
+| **Freeze**   | Move 1 fewer space on every movement action; applied automatically when you move. A move reduced to zero is skipped. Clears at end of round                   |
 | **Curse X**  | Take 1 additional damage from every attack you receive, for X rounds.                                                                                        |
 | **Weaken X** | Deal 1 less damage with every attack you make, for X rounds.                                                                                                 |
 | **Blind**    | You may only target enemies within 2 spaces, until end of round.                                                                                             |
@@ -51,6 +51,6 @@ If an ability has a Keyword, that keyword is activated on any hit, even if an at
 | **Shield X**    | The next X attacks against you are completely negated. Max 3 stacks.                                        |
 | **Retaliate X** | The next X times you are attacked, the attacker automatically takes 1 damage.                               |
 | **Hide**        | Enemies cannot target you. Lasts until you attack or target an enemy.                                       |
-| **Haste**       | Gain +1 space on every movement action.                                                                     |
+| **Haste**       | Gain +1 space on every movement action; applied automatically when you move.                                |
 | **Bless**       | Your bad luck die results (1 and 2) have no effect on you. You are also immune to Curse, Poison and Weaken. |
 | **Boost**       | Your attacks roll at +2.                                                                                    |

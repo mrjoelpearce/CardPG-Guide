@@ -18,6 +18,20 @@ So, a card that reads "*Move 2, then Attack 2*" is a different card than "Attack
 
 Once a card has been used, it goes to your discard pile, unless it has *Expend*.
 
+### Movement
+
+When a card step moves *you*, the game prompts you for it: your cursor becomes a set of footprints, every space you can reach is highlighted on the grid, and clicking one walks your token there. The card then continues to its next step (or ends, if the move was the last one).
+
+A few things worth knowing:
+
+* **Diagonals cost 1 space**, the same as moving straight, so a "Move 3" reaches any space in the 7x7 block around you — corners included.
+* **[Haste](../Mechanics/Keywords.md) adds 1 space and [Freeze](../Mechanics/Keywords.md) subtracts 1**, automatically, every time you move. If Freeze would reduce a move to zero, that move is skipped.
+* **The highlight is a guide, not a fence.** You can click outside it — you may have equipment or another ability granting extra movement that the game doesn't know about. Your GM is the judge.
+* **You can always decline.** Right-click, press Escape, or hit *Skip Move* if you're already where you want to be. You keep the rest of the card — skipping a move never costs you the attack that follows it.
+* **A basic move (3 spaces) works exactly the same way.**
+
+When a card lets *an ally* move instead ("one ally within 3 spaces may immediately move up to 3 spaces"), you'll be asked to pick which ally — and then that player moves their own token themselves.
+
 ### Armor and Damage
 Both characters and enemies have an **armor** value. When an attack deals damage, armor reduces it by its full value — 5 damage against a target with 2 armor deals 3 damage. If damage is reduced to zero or below, no damage is dealt. **Status effects will be triggered, even if an attack value is 0.**
 
