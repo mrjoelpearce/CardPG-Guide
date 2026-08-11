@@ -108,5 +108,5 @@ Between fights, you get a short time to catch your breath. This happens automati
 * All of your discarded, active, and ongoing cards return to hand.
 * Your equipment resets
 * You lose all buffs and conditions
-* 2 cards are restored from your exile zone straight back into your hand (all of them, if you have fewer than 2 exiled).
-* You heal 5 health.
+* 1 card is restored from your exile zone straight back into your hand (none, if you have no cards exiled).
+* You heal 3 health.
