@@ -24,21 +24,21 @@ Your class determines 4 of your active  cards, and has a major impact on how you
 
 | Class            | skill1     | skill2       | skill3       | skill4       | skill5       | skill6       |
 | ---------------- | ---------- | ------------ | ------------ | ------------ | ------------ | ------------ |
-| [Barbarian](../Classes/Barbarian.md)    | resilient  | nature       | athletic     | acrobatic    | intimidating | resourceful  |
-| [Bard](../Classes/Bard.md)         | persuasive | charming     | personable   | acrobatic    | resourceful  | clever       |
-| [Cleric](../Classes/Cleric.md)       | learned    | arcana       | resilient    | wise         | persuasive   | intimidating |
-| [Druid](../Classes/Druid.md)        | nature     | resourceful  | learned      | resilient    | clever       | wise         |
-| [Knight](../Classes/Knight.md)       | resilient  | intimidating | athletic     | martial      | learned      | persuasive   |
+| [Barbarian](../Classes/Barbarian.md)    | observant  | nature       | athletic     | acrobatic    | intimidating | will  |
+| [Bard](../Classes/Bard.md)         | persuasive | charming     | personable   | acrobatic    | will  | clever       |
+| [Cleric](../Classes/Cleric.md)       | learned    | arcana       | observant    | wise         | persuasive   | intimidating |
+| [Druid](../Classes/Druid.md)        | nature     | will  | learned      | observant    | clever       | wise         |
+| [Knight](../Classes/Knight.md)       | observant  | intimidating | athletic     | martial      | learned      | persuasive   |
 | [Mage](../Classes/Mage.md)         | arcana     | learned      | clever       | charming     | wise         | persuasive   |
-| [Mercenary](../Classes/Mercenary.md)    | athletic   | sneaky       | resilient    | resourceful  | martial      | underworld   |
-| [Monk](../Classes/Monk.md)         | wise       | acrobatic    | athletic     | clever       | martial      | resilient    |
+| [Mercenary](../Classes/Mercenary.md)    | athletic   | sneaky       | observant    | will  | martial      | underworld   |
+| [Monk](../Classes/Monk.md)         | wise       | acrobatic    | athletic     | clever       | martial      | observant    |
 | [Psychic](../Classes/Psychic.md)      | arcana     | learned      | wise         | charming     | persuasive   | clever       |
-| [Ranger](../Classes/Ranger.md)       | sneaky     | nature       | resourceful  | clever       | acrobatic    | resilient    |
-| [Rogue](../Classes/Rogue.md)        | sneaky     | acrobatic    | clever       | resourceful  | underworld   | charming     |
-| [Soldier](../Classes/Soldier.md)      | athletic   | martial      | learned      | persuasive   | intimidating | resilient    |
-| [Sorcerer](../Classes/Sorcerer.md)     | arcana     | resilient    | intimidating | charming     | persuasive   | resourceful  |
-| [Summoner](../Classes/Summoner.md)     | arcana     | wise         | resourceful  | persuasive   | nature       | personable   |
-| [Swashbuckler](../Classes/Swashbuckler.md) | acrobatic  | martial      | clever       | intimidating | charming     | resourceful  |
+| [Ranger](../Classes/Ranger.md)       | sneaky     | nature       | will  | clever       | acrobatic    | observant    |
+| [Rogue](../Classes/Rogue.md)        | sneaky     | acrobatic    | clever       | will  | underworld   | charming     |
+| [Soldier](../Classes/Soldier.md)      | athletic   | martial      | learned      | persuasive   | intimidating | observant    |
+| [Sorcerer](../Classes/Sorcerer.md)     | arcana     | observant    | intimidating | charming     | persuasive   | will  |
+| [Summoner](../Classes/Summoner.md)     | arcana     | wise         | will  | persuasive   | nature       | personable   |
+| [Swashbuckler](../Classes/Swashbuckler.md) | acrobatic  | martial      | clever       | intimidating | charming     | will  |
 | [Witch](../Classes/Witch.md)        | arcana     | nature       | clever       | intimidating | learned      | underworld   |
 
 ### Subclass
