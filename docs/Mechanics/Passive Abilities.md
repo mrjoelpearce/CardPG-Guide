@@ -24,7 +24,7 @@ Every class and every weapon grants a **passive ability** that is always active 
 
 - [Bow](../Weapons/Bow.md): The first time each round an enemy enters an adjacent space, you may move 1.
 - [Brawling](../Weapons/Brawling.md): Your second and subsequent attacks each turn deal 1 additional damage.
-- [Crossbow](../Weapons/Crossbow.md): If a single-target attack does 3+ damage, it also hits the enemy directly behind the target.
+- [Crossbow](../Weapons/Crossbow.md): If a single-target attack does 3+ damage, it also hits the next enemy behind the target in a straight line, at any distance.
 - [Cudgel](../Weapons/Cudgel.md): When you deal 3 or more damage in a single attack, apply Stun.
 - [Daggers](../Weapons/Daggers.md): Your attacks that deal Bleed, Weaken, or Poison deal one additional stack.
 - [Greataxe](../Weapons/Greataxe.md): If you deal 4 or more damage to an enemy in a single hit, inflict Weaken 1.

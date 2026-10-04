@@ -1,6 +1,6 @@
 The Crossbow is a ranged weapon that doesn't have as much range as the bow, but is capable of delivering more conditions and operating from stealth.
 
-Passive: If a single-target attack does 3+ damage, it also hits the enemy directly behind the target.
+Passive: If a single-target attack does 3+ damage, it also hits the next enemy behind the target in a straight line, at any distance.
 
 ### Cards
 
