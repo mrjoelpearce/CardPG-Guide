@@ -1,6 +1,6 @@
 Big, wide swings that punch through armor and cause Bleed. Stand your ground with this massive melee weapon.
 
-Passive: If you deal 4 damage to an enemy in a single hit, inflict Weaken 1.
+Passive: If you deal 4 or more damage to an enemy in a single hit, inflict Weaken 1.
 
 ### Cards
 

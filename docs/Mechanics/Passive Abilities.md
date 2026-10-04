@@ -27,7 +27,7 @@ Every class and every weapon grants a **passive ability** that is always active 
 - [Crossbow](../Weapons/Crossbow.md): If a single-target attack does 3+ damage, it also hits the enemy directly behind the target.
 - [Cudgel](../Weapons/Cudgel.md): When you deal 3 or more damage in a single attack, apply Stun.
 - [Daggers](../Weapons/Daggers.md): Your attacks that deal Bleed, Weaken, or Poison deal one additional stack.
-- [Greataxe](../Weapons/Greataxe.md): If you deal 4 damage to an enemy in a single hit, inflict Weaken 1.
+- [Greataxe](../Weapons/Greataxe.md): If you deal 4 or more damage to an enemy in a single hit, inflict Weaken 1.
 - [Greatsword](../Weapons/Greatsword.md): When you attack, deal one extra damage if you've moved this turn.
 - [Holy Symbol](../Weapons/Holy%20Symbol.md): At the start of each round of combat, gain Bless.
 - [Mageblade](../Weapons/Mageblade.md): The first time each round you apply an elemental condition (Burn, Freeze, or Shock) with an attack, restore 1 card from your discard.
