@@ -20,7 +20,7 @@ If an ability has a Keyword, that keyword is activated on any hit, even if an at
 | **Range X**   | This attack can reach targets up to X spaces away.                                                                              |
 | **Push X**    | Shove the target X spaces directly away from you.                                                                               |
 | **Pull X**    | Drag the target X spaces directly toward you.                                                                                   |
-| **Stun**      | The target immediately loses one buff or one ongoing card effect. The defender chooses which.                                   |
+| **Stun**      | The target immediately loses one ongoing effect (the one with the most charges remaining) or, if it has none, one buff, in this order: Shield, Bless, Boost, Bolster, Retaliate, Hide, Haste.                                   |
 | **Coerce X**  | Force one enemy to move up to X spaces toward another combatant and attack them for X damage.                                   |
 | **Muddle X**  | *Enemy ability.* X of your cards are randomly exiled from your hand.                                                            |
 | **Exhaust X** | *Enemy ability.* You must discard X cards from your hand of your choice.                                                        |
@@ -53,4 +53,4 @@ If an ability has a Keyword, that keyword is activated on any hit, even if an at
 | **Hide**        | You cannot be targeted except by AOE effects — allies can't heal, cure, or buff you directly while hidden either. Lasts until you make an attack or target an enemy. |
 | **Haste**       | Gain +1 space on every movement action; applied automatically when you move.                                |
 | **Bless**       | Your bad luck die results (1 and 2) have no effect on you. You are also immune to Curse, Poison and Weaken. |
-| **Boost**       | Your attacks roll at +2.                                                                                    |
+| **Boost**       | Your next attack roll gets +2. Lasts until you attack, not just one round. Stacks up to 2: each attack uses one stack. An area attack is one roll, so it boosts every target. |

@@ -90,9 +90,9 @@ Ongoing cards may apply effects at the start or end of each round, react to even
 You can choose to end one of your own ongoing cards whenever you want, so long as it's not during another player or enemy's action. Send it to your discard pile as normal. An enemy's **Stun** can also end one of your ongoing cards.
 
 ### Exhaustion and Death
-Each player and enemy has a health value. Attacks will deal damage to health. Any time you take damage, you may exile a card from your hand or discard pile instead of taking damage. This represents your character becoming tired, and losing access to your full suite of options.
+Each player and enemy has a health value. Attacks will deal damage to health. If an attack would damage you without reducing your health to 0, you may spend a Fate Point to avoid it entirely: no damage, and none of its effects.
 
-If your health would be reduced to 0 and you cannot exile a card from your hand or discard pile, your character is **killed**.
+If an attack or direct damage would reduce your health to 0, you must exile a card from your hand or discard pile to negate it instead. Direct damage can't be avoided with a Fate Point. This represents your character becoming tired, and losing access to your full suite of options. If you have no cards left in your hand or discard pile to exile, your character is **killed**.
 
 ### Fleeing
 Running out of cards is dangerous, but it isn't the same as dying. If, at the start of a round, your hand and discard pile combined have fewer than two cards — nothing to select from, and nothing to rest with — your character **flees** the fight.
