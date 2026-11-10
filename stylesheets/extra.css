@@ -1,0 +1,4 @@
+.kw-hover {
+  text-decoration: underline dotted var(--md-accent-fg-color);
+  cursor: help;
+}
